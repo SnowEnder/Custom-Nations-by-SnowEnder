@@ -3,11 +3,11 @@
 		"name": "Alchembrew",
 		"leaderName": "Zephyr Maelstrom",
 		"adjective": ["Alchembrewian"],
-		"startBias": ["Grassland","Coast"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Hello, Mr. President.",
-		"startIntroPart2": "You, President Zephyr Xavier Maelstrom, are the leader of the Republic of the Rising Star, the mighty Alchembrew.  After winning independence from Germany, you must now lead your nation to prosperity!"
+		"startIntroPart2": "You, President Zephyr Xavier Maelstrom, are the leader of the Republic of the Rising Star, the mighty Alchembrew.  After winning independence from the German occupation of the Alchembrewian Islands, you must now lead your nation to prosperity!"
 		
 		"declaringWar": "You have crossed Alchembrew one too many times. Now, prepare to be destroyed like the you have. never seen before",
 		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
@@ -29,7 +29,551 @@
 
 		"outerColor": [0,71,171],
 		"innerColor": [220,20,60],
-		"unique": "Starts with [Mobile Tactics]",
+		"uniqueName": "Might of the Aether",
+		"uniques": ["[+3 Production] from every [Mine]","Starts with [Mobile Tactics]","Starts with [Liberty] adopted","Starts with [Flight]","Starts with [Ballistics]"],
 		"cities": ["Alchembrew","Dryden","Milwaukee","New Viridia","Westport","Valour Port","New Amsterdam","New Rotterdam","New Fresno", "New Kennewick", "New Astana"]
+	},
+	{
+		"name": "Alliance of Atlantic States",
+		"leaderName": "Jonathan X. Michaels",
+		"adjective": ["Atlantean"],
+		"startBias": ["Grassland","Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Mr. President.",
+		"startIntroPart2": "You, President Jonathan Xavier Michaels, are the leader of Virginia, Carolina, Maryland, and Delaware, the mighty Alliance of Atlantic States.  After winning independence from America, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed the Alliance one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Alliance will still crush you.",
+		"introduction": "Hello. I am President Jonathan Michaels, of the Alliance of Atlantic States.  I welcome you to our land.  Would you like to play a game of football?",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [220,20,60],
+		"innerColor": [70, 130, 180],
+		"uniqueName": "Allied Doctrine",
+		"uniques": ["[+5 Happiness] from every [Farm]","Starts with [Flight]"],
+		"cities": ["Raleigh","Roanoke","Charleston","Columbia","Durham","Baltimore","Annapolis","Norfolk","Dover","Winston-Salem"]
+	},
+	{
+		"name": "New Russian Republic",
+		"leaderName": "Alexei Navalny",
+		"adjective": ["Russian"],
+		"startBias": ["Tundra","Snow","Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Mr. President.",
+		"startIntroPart2": "You, President Alexei Navalny, are the leader of the Republic of Russia.  After winning the civil war and deposing Vladimir Putin, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed Russia one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Motherland will still crush you.",
+		"introduction": "Hello. I am President Alexei Navalny, of Russia.  I welcome you to the Motherland.  Would you like to play a game of poker?",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [210, 180, 80],
+		"innerColor": [70, 130, 180],
+		"uniqueName": "Revolution of the People"
+		"uniques": ["Starts with [Ballistics]","[+5 Production, +2 Iron] from every [Mine]"],
+		"cities": ["Yekaterinburg","Khabarovsk","Rostov-on-Don","Novosibirsk","Moscow","Volgorod","Arkhangelsk"]
+	},
+	{
+		"name": "Kingdom of Quebec",
+		"leaderName": "Adélard III",
+		"adjective": ["Quebecois"],
+		"startBias": ["Tundra","Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, my liege.",
+		"startIntroPart2": "You, King Adélard the Third, Adélard the Great, are the leader of Quebec.  After winning independence from Canada, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed Quebec one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Kingdom will still crush you.",
+		"introduction": "Hello. I am King Adélard III, of Quebec.  I welcome you to the land of the Quebecois Kingdom.  Would you like to play a game of cards?",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [0,0,128],
+		"innerColor": [225,225,225],
+		"uniqueName": "Quebecois Spirit",
+		"uniques": ["Starts with [Engineering]"],
+		"cities": ["Quebec City","Montreal","Trois-Rivières","Gatineau","Laval","Longueuil","Sherbrooke","Saguenay","Lévis"]
+	},
+	{
+		"name": "New England Republic",
+		"leaderName": "Maura Healy",
+		"adjective": ["New English"],
+		"startBias": ["Grassland","Coast","Snow"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Madam President.",
+		"startIntroPart2": "You, President Maura Healy, are the leader of the New England Republic, encompassing Massachusetts, Maine, Vermont, Rhode Island, New Hampshire, and Connecticut.  After winning independence from America, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed my people one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Republic will still crush you.",
+		"introduction": "Hello. I am President Maura Healy, of New England.  I welcome you to our land.  Would you like to play a game of soccer?",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [255,0,0],
+		"innerColor": [255,255,255],
+		"uniqueName": "Nor'eastern Spirit".
+		"uniques": ["Starts with [Mobile Tactics]","[+1 Culture, +3 Happiness] from every [Tundra]"],
+		"cities": ["Boston","Philadelphia","Montpelier","Concord","Portland","Worcster","Providence"]
+	},
+	{
+		"name": "Ontario",
+		"leaderName": "Elizabeth Dowdeswell",
+		"adjective": ["Ontarian"],
+		"startBias": ["Grassland","Tundra"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Lieutenant Governor.",
+		"startIntroPart2": "You, Lieutenant Governor Elizabeth Dowdeswell, are the leader of Ontario.  After winning independence from Canada, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed Ontario one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but Canada will still crush you.",
+		"introduction": "Hello. I am Lieutenant Governor Dowdeswell, of Onatrio.  Would you like to play a game of ice hockey??",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [255,0,0],
+		"innerColor": [0,0,0],
+		"unique": "Starts with [Mobile Tactics]",
+		"cities": ["Toronto","Ottawa","Hamilton","Thunder Bay","Fort Francis","Kenora","Fort Albany"]
+	},
+	{
+		"name": "Western Ontario",
+		"leaderName": "Liam Smith",
+		"adjective": ["Ontarian"],
+		"startBias": ["Grassland","Tundra"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Premier.",
+		"startIntroPart2": "You, Premier Liam Smith, are the leader of Western Ontario.  After winning independence from Ontario, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed Ontario one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but Canada will still crush you.",
+		"introduction": "Hello. I am Lieutenant Governor Dowdeswell, of Onatrio.  Would you like to play a game of ice hockey??",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [159,125,66],
+		"innerColor": [115,54,53],
+		"uniqueName": "Pride of the West"
+		"uniques": ["Starts with [Mobile Tactics]","Starts with [Flight]"],
+		"cities": ["Dryden","Thunder Bay","Fort Severn","Sioux Lookout","Fort Francis","Kenora","Red Lake"]
+	},
+	{
+		"name": "Grand Duchy of Luxembourg",
+		"leaderName": "Xavier Bettel",
+		"adjective": ["Luxembourgish"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Mr. President.",
+		"startIntroPart2": "You, glorious Prime Minister Bettel, are the leader of the Grand Duchy, the mighty Luxembourg.  After rising to power, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed Luxembourg one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Duchy will still crush you.",
+		"introduction": "Hello. I am Prime Minister Bettel, of Luxembourg.  I welcome you to the my land.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [0,163,224],
+		"innerColor": [239,51,64],
+		"uniqueName": "We are not a microstate!"
+		"uniques": ["Starts with [Mobile Tactics]","Starts with [Liberty] adopted"],
+		"cities": ["Luxembourg","Vianden","Remich","Diekirch","Dudelange","Wiltz"]
+	},
+	{
+		"name": "Grand California Federation",
+		"leaderName": "Bret Thomas",
+		"adjective": ["Californian"],
+		"startBias": ["Grassland","Coast","Desert"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Mr. President.",
+		"startIntroPart2": "You, President Bret Thomas, are the leader of the GCF, the Grand California Federation, whose lands encompass California, Oregon, and Washington.  After winning independence from America, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed California one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Federation will still crush you.",
+		"introduction": "Hello. You have three options. Stand with us, stand against us, or get the hell out of our way. Your choice.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [128, 0, 32],
+		"innerColor": [210, 180, 80],
+		"uniqueName"; "Spirit of the West",
+		"uniques": ["Starts with [Mobile Tactics]","[+1 Food, +5 Production] from every [Farm]"],
+		"cities": ["Fresno","San Diego","Kennewick","Los Angeles","San Fransisco","Redding","Sacramento","Portland","Seattle", "Tacoma", "Lake Tahoe"]
+	},
+	{
+		"name": "New American Empire",
+		"leaderName": "John Washington",
+		"adjective": ["American"],
+		"startBias": ["Grassland","Desert"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, oh great Emperor Washington.",
+		"startIntroPart2": "You, Emperor John Adam Washington, are the leader of the Empire of America.  After winning the war against the United States, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed America one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Empire still reigns.",
+		"introduction": "Hello. You have three options. Stand with us, stand against us, or get the hell out of our way. Your choice.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [10, 49, 97]
+		"innerColor": [179,25,66],
+		"uniqueName": "Imperialistic Ideals",
+		"uniques": ["Starts with [Honor] adopted"],
+		"cities": ["Dallas","New York","Washington","St. Louis","Denver","Miami","Atlanta","Baltimore","Houston","Norfolk","Nashville","Louisville"]
+	},
+	{
+		"name": "Imperial Republic of Kosovo",
+		"leaderName": "Vjosa Osmani",
+		"adjective": ["Kosovar"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Madam Empress Osmani.",
+		"startIntroPart2": "You, Presidential Empress Vjosa Osmani, are the leader of the Imperial Republic of Kosovo.  After winning independence from Serbia, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed Kosovo one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Empire will still crush you.",
+		"introduction": "Hello. You have three options. Stand with us, stand against us, or get the hell out of our way. Your choice.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [36, 74, 165],
+		"innerColor": [208, 166, 80],
+		"uniqueName": "Freedom is a human right, Serbia!",
+		"uniques": ["Starts with [Mobile Tactics]","Starts with [Liberty] adopted","Starts with [Mining]"],
+		"cities": ["Pristinha","Belgrade","Sarajevo","Stari Ras","Split","Niš","Novi Sad","Smederevo"]
+	},
+	{
+		"name": "Steel Belt Empire",
+		"leaderName": "Gretchen Whitmer",
+		"adjective": ["Steel Belter"],
+		"startBias": ["Grassland","Mountain"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, my lady Empress.",
+		"startIntroPart2": "You, Empress Gretchen Whitmer, are the leader of the Empire of the Steel Belt, whose lands stretch from Traverse City, all the way to Wilkes-Barre.  After winning independence from America, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed my empire one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Steel Belt's allies will still crush you.",
+		"introduction": "Hello. You have three options. Stand with us, stand against us, or get the hell out of our way. Your choice.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [255, 112, 52],
+		"innerColor": [176, 185, 178],
+		"uniqueName": "Manufacturing Capital of the World",
+		"uniques": ["Starts with [Mobile Tactics]","[+7 Production] from every [Farm]","[+5 Iron] from every [Mine]"],
+		"cities": ["Detroit","Cleveland","Travrese City","Pittsburgh","Toledo","Cincinatti","Wilkes-Barre","Scranton","Indianapolis", "South Bend", "Harrisburg"]
+	},
+	{
+		"name": "Great Lake Republic",
+		"leaderName": "Scott Walker",
+		"adjective": ["Great Laker"],
+		"startBias": ["Grassland","Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Mr. Governor. I hope your rest was sufficient.",
+		"startIntroPart2": "You, Governor Scott Walker, are the leader of the Republic of the Great Lake.  After winning independence from America, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed my people one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the rest of the world will still crush you.",
+		"introduction": "Hello. You have three options. Stand with us, stand against us, or get the hell out of our way. Your choice.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [70,130,180],
+		"innerColor": [127, 108, 70],
+		"uniqueName": "Land of Nature, Rise as One!",
+		"uniques": ["Starts with [Mobile Tactics]","Starts with [Liberty] adopted","[+2 Production, +1 Iron] from every [Mine]"],
+		"cities": ["Milwaukee","Racine","Kenosha","Chicago","La Crosse","Eau Claire","Madison","Winthrop Harbor","Green Bay","Port Washington","Sturgeon Bay","Marquette"]
+	},
+	{
+		"name": "Republic of Provo",
+		"leaderName": "Robert Osmark",
+		"adjective": ["Provan"],
+		"startBias": ["Desert","Mountain"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Mr. President.",
+		"startIntroPart2": "You, President Robert Osmark, are the leader of the Republic of Provo.  After winning independence from America, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed Provo one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Fates will still crush you.",
+		"introduction": "Hello. I am President Robert Osmark, of Provo.  I welcome you to the land of the Republic.  Would you like to play a game of basketball?",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [197,203,225],
+		"innerColor": [244,149,29],
+		"uniqueName": "Heart of the Great Basin",
+		"uniques": ["[+3 Production] from every [Plantation]","Starts with [Telecommunications]","Starts with [Liberty] adopted","Starts with [Flight]"],
+		"cities": ["Provo","Salt Lake City","Cedar City","Ogden","Enoch","Denver","Beaver","Boulder"]
+	},
+	{
+		"name": "Rocky Mountain Republic",
+		"leaderName": "Jared Polis",
+		"adjective": ["Colorodan"],
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Mr. Governor.",
+		"startIntroPart2": "You, Governor Jared Polis, are the leader of Colorado, Wyoming, Montana, and southeastern Idaho, which are the lands that make up the mighty Rocky Mountain Republic.  After winning independence from America, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed my people one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Mountains will still crush you.",
+		"introduction": "Hello. I am Governor Jared Polis, of the Rocky Mountain Republic.  I welcome you to our land.  Would you like to play a game of football?",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [29,35,50],
+		"innerColor": [203,142,0],
+		"uniqueName": "People of the Mountains",
+		"uniques": ["[+5 Happiness] from every [Mine]","Starts with [Flight]"],
+		"cities": ["Denver","Colorado Springs","Cheyenne","Pocatello","Billings","Pueblo","Fort Collins","Helena"]
+	},
+	{
+		"name": "Mandem",
+		"leaderName": "David Eby",
+		"adjective": ["Mandemian"],
+		"startBias": ["Tundra","Snow","Grassland"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Mr. Premier.",
+		"startIntroPart2": "You, Premier David Eby, are the leader of the Republic of Mandem, encompassing British Columbia, Alberta, and the Yukon Territory. After winning independence from Canada, you must now lead your nation to prosperity!"
+		
+		"declaringWar": "You have crossed Mandem one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Homeland will still crush you.",
+		"introduction": "Hello. I am Premier David Eby, of Mandem.  I welcome you to the Homeland.  Would you like to play a game of ice hockey?",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [210, 180, 80],
+		"innerColor": [70, 130, 180],
+		"uniqueName": "The Militaristic Soceity"
+		"uniques": ["Starts with [Ballistics]","[+5 Production, +2 Iron] from every [Barracks]"],
+		"cities": ["Vancouver","Calgary","Whitehorse","Edmonton","Bella Coola","Kamloops","Grande Prarie"]
+	},
+	{
+		"name": "Quebecois Confederation",
+		"leaderName": "Aldéric Gauthier",
+		"adjective": ["Quebecois"],
+		"startBias": ["Tundra","Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Hello, Sir.",
+		"startIntroPart2": "You, President Aldéric Gauthier, are the leader of the Quebecois Confederation.  After winning independence from the Kingdom of Quebec, you must now lead your nation to prosperity, and defeat the tyrannical King"
+		
+		"declaringWar": "You have crossed Quebec one too many times. Now, prepare to be destroyed like the you have. never seen before",
+		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
+		"defeated": "We may have fallen, but the Kingdom will still crush you.",
+		"introduction": "Hello. I am President Aldéric Gauthier, of the Quebecois Confederation.  I have no time to talk with suppoerters of the current tyrannical monarchy, but if you are a friend of the liberty and freedom of democracy, then you can be our friend as well.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [0,0,128],
+		"innerColor": [186,19,29],
+		"uniqueName": "The Democratic Revolution",
+		"uniques": ["Starts with [Archery]","Cannot build [Settler] units"],
+		"cities": ["Mistissini"]
 	}
 ]
