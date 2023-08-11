@@ -1,0 +1,17 @@
+[
+	{
+		"name": "Cobalt Syndicate Soldier",
+		"unitType": "Ranged",
+		"uniqueTo": "Alchembrew",
+		"replaces": "Marine",
+		"movement": 5,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 6,
+		"cost": 500,
+		"requiredTech": "Ballistics",
+		"requiredResource": "Iron",
+		"promotions": ["Logistics","Accuracy I","March","Amphibious"],
+		"attackSound": "phasers"
+	}
+]
