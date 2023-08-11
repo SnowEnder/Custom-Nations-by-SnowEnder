@@ -300,7 +300,7 @@
 
 		"outerColor": [128, 0, 32],
 		"innerColor": [210, 180, 80],
-		"uniqueName"; "Spirit of the West",
+		"uniqueName": "Spirit of the West",
 		"uniques": ["Starts with [Mobile Tactics]","[+1 Food, +5 Production] from every [Farm]"],
 		"cities": ["Fresno","San Diego","Kennewick","Los Angeles","San Fransisco","Redding","Sacramento","Portland","Seattle", "Tacoma", "Lake Tahoe"]
 	},
