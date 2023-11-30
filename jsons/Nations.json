@@ -98,7 +98,7 @@
 		"outerColor": [210, 180, 80],
 		"innerColor": [70, 130, 180],
 		"uniqueName": "Revolution of the People"
-		"uniques": ["Starts with [Ballistics]","[+5 Production, +2 Iron] from every [Mine]"],
+		"uniques": ["Starts with [Ballistics]","[+5 Production] from every [Mine]"],
 		"cities": ["Yekaterinburg","Khabarovsk","Rostov-on-Don","Novosibirsk","Moscow","Volgorod","Arkhangelsk"]
 	},
 	{
@@ -243,7 +243,7 @@
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Hello, Mr. President.",
+		"startIntroPart1": "Hello, Mr. Prime Minister.",
 		"startIntroPart2": "You, glorious Prime Minister Bettel, are the leader of the Grand Duchy, the mighty Luxembourg.  After rising to power, you must now lead your nation to prosperity!"
 		
 		"declaringWar": "You have crossed Luxembourg one too many times. Now, prepare to be destroyed like the you have. never seen before",
@@ -346,7 +346,7 @@
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "Hello, Madam Empress Osmani.",
-		"startIntroPart2": "You, Presidential Empress Vjosa Osmani, are the leader of the Imperial Republic of Kosovo.  After winning independence from Serbia, you must now lead your nation to prosperity!"
+		"startIntroPart2": "You, Empress Vjosa Osmani, are the leader of the Imperial Republic of Kosovo.  After winning independence from Serbia, you must now lead your nation to prosperity!"
 		
 		"declaringWar": "You have crossed Kosovo one too many times. Now, prepare to be destroyed like the you have. never seen before",
 		"attacked": "Your army fighting my army is like bringing a knife to a gunfight. After we win the war, you will be exiled, and forced to live away from any civilization, as an outcast."
@@ -403,7 +403,7 @@
 		"outerColor": [255, 112, 52],
 		"innerColor": [176, 185, 178],
 		"uniqueName": "Manufacturing Capital of the World",
-		"uniques": ["Starts with [Mobile Tactics]","[+7 Production] from every [Farm]","[+5 Iron] from every [Mine]"],
+		"uniques": ["Starts with [Mobile Tactics]","[+7 Production] from every [Farm]","[+5 Production] from every [Mine]"],
 		"cities": ["Detroit","Cleveland","Travrese City","Pittsburgh","Toledo","Cincinatti","Wilkes-Barre","Scranton","Indianapolis", "South Bend", "Harrisburg"]
 	},
 	{
@@ -437,7 +437,7 @@
 		"outerColor": [70,130,180],
 		"innerColor": [127, 108, 70],
 		"uniqueName": "Land of Nature, Rise as One!",
-		"uniques": ["Starts with [Mobile Tactics]","Starts with [Liberty] adopted","[+2 Production, +1 Iron] from every [Mine]"],
+		"uniques": ["Starts with [Mobile Tactics]","Starts with [Liberty] adopted","[+2 Production] from every [Mine]"],
 		"cities": ["Milwaukee","Racine","Kenosha","Chicago","La Crosse","Eau Claire","Madison","Winthrop Harbor","Green Bay","Port Washington","Sturgeon Bay","Marquette"]
 	},
 	{
@@ -539,7 +539,7 @@
 		"outerColor": [210, 180, 80],
 		"innerColor": [70, 130, 180],
 		"uniqueName": "The Militaristic Soceity"
-		"uniques": ["Starts with [Ballistics]","[+5 Production, +2 Iron] from every [Barracks]"],
+		"uniques": ["Starts with [Ballistics]","[+5 Production] from every [Barracks]"],
 		"cities": ["Vancouver","Calgary","Whitehorse","Edmonton","Bella Coola","Kamloops","Grande Prarie"]
 	},
 	{
