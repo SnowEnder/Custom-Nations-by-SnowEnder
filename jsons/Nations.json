@@ -165,7 +165,7 @@
 
 		"outerColor": [255,0,0],
 		"innerColor": [255,255,255],
-		"uniqueName": "Nor'eastern Spirit".
+		"uniqueName": "Nor'eastern Spirit",
 		"uniques": ["Starts with [Mobile Tactics]","[+1 Culture, +3 Happiness] from every [Tundra]"],
 		"cities": ["Boston","Philadelphia","Montpelier","Concord","Portland","Worcster","Providence"]
 	},
